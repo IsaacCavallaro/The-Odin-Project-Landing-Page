@@ -11,7 +11,6 @@ html {
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
@@ -20,25 +19,26 @@ body {
 /* ========== NAVBAR ========== */
 
 header{
-  display: flex;
-  justify-content: center;
-}
-
-/* Set nav-bar container to flex and center items within container */
-.nav-bar {
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-right: 300px;
-  margin-left: 300px;
+  width: 100vw; 
+  height: 64px; 
   background-color: #1f2937;
 }
 
-/* Set items within nav-bar container to grow */
-.left-links{
-  flex: 1;
+/* Select navbar */
+.nav-bar {
+  max-width: 1200px; 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+/* Set items within nav-bar container to grow */
+/* .right-links{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+} */
 
 /* Select header logo */
 .nav-bar .left-links ul li {
@@ -62,9 +62,10 @@ ul {
 /* ========== HERO ========== */
 
 .hero{
+  margin: 0 auto; 
+  width: 1200px;
   display: flex;
   justify-content: center;
-  gap: 300px;
-  margin-top: 100px;
-  margin-left: 300px;
+  background-color: #eee;
 }
+
