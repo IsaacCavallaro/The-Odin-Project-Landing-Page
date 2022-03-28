@@ -57,18 +57,27 @@ ul {
 .hero{
   margin: 0 auto; 
   margin-top: 50px;
-  margin-bottom: 100px;
   width: 1200px;
+  /* height: 200px; */
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
+  margin-bottom: 50px;
 }
 
- .hero-left{
+.hero-left{
   display: flex;
   flex-direction: column;
-  width:100%;
+  width: 50%;
 }
+
+.hero-right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-height: 200px;
+}
+
 
 .hero-left button{
   background-color:#3882f6;
@@ -79,15 +88,27 @@ ul {
   border-radius: 5px;
 }
 
-.hero-right{
-  height: auto;
-  width: 1000px;
-} 
-
-.hero-right img{
-  height: 80%;
+/* Hero image */
+.hero-right img {
+  height: 100%;
   width: 100%;
 }
+
+/* Select h1 inside hero */
+.hero .hero-left h1{
+  margin: 0;
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+/* Select p inside hero */
+.hero .hero-left p{
+  margin-top: 0;
+  width: 380px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
 
 /* ========== INFORMATION ========== */
 
