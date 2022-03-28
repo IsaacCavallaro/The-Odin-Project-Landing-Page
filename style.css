@@ -1,0 +1,53 @@
+/* ========== RESET STYLE ========== */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* ========== BODY ========== */
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ========== NAVBAR ========== */
+
+/* Set nav-bar container to flex and center items within container */
+.nav-bar {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin-right: 300px;
+  margin-left: 300px;
+  background-color: #1f2937;
+}
+
+/* Set items within nav-bar container to grow */
+.left-links{
+  flex: 1;
+}
+
+/* Select header logo */
+.nav-bar .left-links ul li {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+/* Select nav-bar ul */
+ul {
+  list-style-type: none; /* Remove the dots on the list items*/
+  display: flex; /* position ul in a row */
+  gap: 30px;
+  padding: 5px;
+}
+
+ a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
