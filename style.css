@@ -33,13 +33,6 @@ header{
   justify-content: space-between;
 }
 
-/* Set items within nav-bar container to grow */
-/* .right-links{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-} */
-
 /* Select header logo */
 .nav-bar .left-links ul li {
   color: #f9faf8;
@@ -69,3 +62,17 @@ ul {
   background-color: #eee;
 }
 
+/* ========== INFORMATION ========== */
+
+.information-container{
+  margin: 0 auto; 
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+/* resize images */
+.information-container .media img {
+  width: 100px;
+  height: 100px;
+}
