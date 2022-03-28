@@ -56,23 +56,88 @@ ul {
 
 .hero{
   margin: 0 auto; 
+  margin-top: 50px;
+  margin-bottom: 100px;
   width: 1200px;
   display: flex;
-  justify-content: center;
-  background-color: #eee;
+  justify-content: space-between;
+  background-color: #1f2937;
+}
+
+ .hero-left{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.hero-left button{
+  background-color:#3882f6;
+  color: #eee;
+  border: none;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hero-right{
+  height: auto;
+  width: 1000px;
+} 
+
+.hero-right img{
+  height: 80%;
+  width: 100%;
 }
 
 /* ========== INFORMATION ========== */
+
+.information-header{
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #eee;
+}
 
 .information-container{
   margin: 0 auto; 
   width: 1200px;
   display: flex;
   justify-content: center;
+  background-color: #eee;
 }
 
 /* resize images */
 .information-container .media img {
   width: 100px;
   height: 100px;
+}
+
+/* ========== QUOTE ========== */
+
+.quote{
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ddd;
+}
+
+/* ========== CALL TO ACTION ========== */
+
+.call-to-action{
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+
+/* ========== FOOTER ========== */
+
+footer {
+  height: 72px;
+  background-color: #1f2937;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
