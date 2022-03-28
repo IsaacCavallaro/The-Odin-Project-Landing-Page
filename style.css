@@ -14,15 +14,22 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  background-color: #1f2937;
 }
 
 /* ========== NAVBAR ========== */
+
+header{
+  display: flex;
+  justify-content: center;
+}
 
 /* Set nav-bar container to flex and center items within container */
 .nav-bar {
   display: flex; 
   align-items: center;
   justify-content: center;
+  width: 100%;
   margin-right: 300px;
   margin-left: 300px;
   background-color: #1f2937;
@@ -50,4 +57,14 @@ ul {
  a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+/* ========== HERO ========== */
+
+.hero{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 100px;
+  margin-left: 300px;
 }
