@@ -75,7 +75,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: 50%;
-  max-height: 200px;
+  max-height: 250px;
 }
 
 
@@ -92,6 +92,7 @@ ul {
 .hero-right img {
   height: 100%;
   width: 100%;
+  object-fit: contain; /* Get the image to fit inside its container */
 }
 
 /* Select h1 inside hero */
@@ -112,41 +113,74 @@ ul {
 
 /* ========== INFORMATION ========== */
 
+/* Style Header*/
 .information-header{
   text-align: center;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  color: #1f2837;
+  font-size: 36px;
   background-color: #eee;
+  padding-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .information-container{
   margin: 0 auto; 
-  width: 1200px;
+  width: 100%;
+  background-color: #eee;
   display: flex;
   justify-content: center;
-  background-color: #eee;
+  align-items: center;
+}
+
+/* image and text container */
+.media {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Style image subtext */
+.media .text {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  padding-top: 10px;
 }
 
 /* resize images */
 .information-container .media img {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: auto;
+  object-fit: contain; /* Get the image to fit inside its container */
 }
 
 /* ========== QUOTE ========== */
 
 .quote{
   text-align: center;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  background-color: #ddd;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
 }
 
 /* ========== CALL TO ACTION ========== */
 
 .call-to-action{
   text-align: center;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   background-color: #eee;
 }
