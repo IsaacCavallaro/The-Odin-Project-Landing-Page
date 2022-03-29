@@ -167,13 +167,30 @@ ul {
 /* ========== QUOTE ========== */
 
 .quote{
-  text-align: center;
   width: 100%;
-  margin: 0 auto;
   background-color: #e5e7eb;
   color: #1f2937;
   font-size: 36px;
+  /* font-style: italic; */
+}
+
+.quote blockquote {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
   font-style: italic;
+}
+
+.quote cite {
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+  margin-right: 500px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 /* ========== CALL TO ACTION ========== */
