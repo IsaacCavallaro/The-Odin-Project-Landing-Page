@@ -58,7 +58,6 @@ ul {
   margin: 0 auto; 
   margin-top: 50px;
   width: 1200px;
-  /* height: 200px; */
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
@@ -195,12 +194,52 @@ ul {
 
 /* ========== CALL TO ACTION ========== */
 
+/* Call to action fullscreen container */
 .call-to-action{
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
   margin: 0 auto;
   background-color: #eee;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
 }
+
+.action-text-container {
+  width: 1200px;
+  margin-top: 100px;
+  margin-left:100px;
+  margin-bottom: 100px;
+  background-color:#3882f6;
+  color: #eee;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  background-color:#3882f6;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+button {
+  color: #eee;
+  background-color:#3882f6;
+  border: solid 1px #eee;
+  height: 40px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+
 
 
 /* ========== FOOTER ========== */
