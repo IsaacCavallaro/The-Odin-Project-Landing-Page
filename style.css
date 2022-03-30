@@ -28,8 +28,8 @@ body {
 .logo-container img {
     width: 84px;
     height: 84px;
-    margin-right: auto;
     border-radius: 50%;
+    border: solid 5px #eee;
   /* border: solid 1px red; */
 }
 .nav-links-container ul {
@@ -39,4 +39,53 @@ body {
   /* border: solid 1px red; */
 }
 
+/* =========== HERO SECTION ============== */
 
+.hero-container {
+  display: flex;  /* Set hero-left and hero-right to row */
+  color: #F9FAF8;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  /* padding: 90px;   */
+  /* border: solid 1px red; */
+}
+
+.hero-left-container {
+    display: flex; 
+    flex-direction: column; /* Set h1, p and button to stack on top of each other */
+    flex-basis: 400px; /* Set size of hero-left container */
+  /* border: solid 1px red; */
+}
+
+.hero-left-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.hero-left-container p {
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+
+.hero-left-container button {
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.hero-right-container {
+  max-width: 300px;
+  margin-left: 80px;
+}
+
+.hero-right-container img {
+  width: 100%;
+  border: 10px solid #eee;
+}
