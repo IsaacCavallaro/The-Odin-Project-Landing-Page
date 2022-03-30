@@ -1,9 +1,42 @@
 body {
-  margin: 0;
+  margin: 0; /* remove margin from page */
+  font-family: 'Roboto', arial;
 }
 
-.page-container{
-  border: solid 1px red;
+
+.page-container {
   height: 100vh; /* Set page-container to full viewport height */
   width: 100vw; /* Set page-container to full viewport width */
+  display: flex;
+  flex-direction: column;
+  /* border: solid 1px red; */
 }
+
+/* =========== HEADER ============== */
+
+.header-container {
+  display: flex; /* Set logo and nav to row */
+  align-items: center; /* Center logo and nav via cros axis */
+  justify-content: space-around;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* border: solid 1px red; */
+}
+
+.logo-container img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+    border-radius: 50%;
+  /* border: solid 1px red; */
+}
+.nav-links-container ul {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  /* border: solid 1px red; */
+}
+
+
