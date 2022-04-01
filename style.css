@@ -94,11 +94,11 @@ body {
 /* =========== CONTENT SECTION ============== */
 
 .content-container {
-  border: solid 1px red;
   display: flex; /* Set flex to content section to add responsiveness */
   flex-direction: column;
   max-width: 100%;
   max-height: 700px;
+  /* border: solid 1px red; */
 }
 
 .content-container h2 { /* Center Heading for content section */
@@ -115,7 +115,7 @@ body {
 .content-info-container .content {
  max-width: 300px;
  max-height: 300px;
- border: solid 1px blue;
+ /* border: solid 1px blue; */
 }
 
 .content-info-container .content img {
@@ -146,7 +146,7 @@ body {
 .quote-section-container blockquote {
   display: flex;
   max-width: 800px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .quote-section-container .quote {
@@ -159,3 +159,60 @@ body {
   font-size: 36px;
   color: #172937;
 }
+
+/* =========== SIGN UP SECTION ============== */
+
+.sign-up-container { /* Center all items inside the sign up section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.sign-up-content {
+  display: flex;
+  align-items: center;
+  background: #3882f6;
+  border-radius: 5px;
+  margin-top: 50px; /* Add space between sign-up content and the top of its container */
+  margin-bottom: 50px; /* Add space between sign-up content and the bottom of its container */
+  /* border: solid 1px blue; */
+}
+
+.sign-up-left-side {
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sign-up-right-side {
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-left-side h2 {
+  color: #F9FAF8;
+  font-size: 38px;
+  padding-left: 50px;
+}
+
+.sign-up-right-side button{ /* Button for call to action section */
+    border: solid 1px #F9FAF8;
+    text-align: center;
+    width: 110px;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.sign-up-left-side p { /* Paragraph for call to action section */
+  color: #F9FAF8;
+  padding-left: 50px;
+}
+
+/* =========== FOOTER SECTION ============== */
