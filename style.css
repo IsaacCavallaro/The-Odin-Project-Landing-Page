@@ -26,18 +26,27 @@ body {
 }
 
 .logo-container img {
-    width: 84px;
-    height: 84px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: solid 5px #eee;
+    object-fit: cover;
+
   /* border: solid 1px red; */
 }
 .nav-links-container ul {
   display: flex;
   list-style-type: none;
   gap: 15px;
+  font-size: 20px;
   /* border: solid 1px red; */
 }
+
+.nav-links-container ul li a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
 
 /* =========== HERO SECTION ============== */
 
@@ -103,6 +112,7 @@ body {
 
 .content-container h2 { /* Center Heading for content section */
   text-align: center;
+  font-size: 36px;
 }
 
 .content-info-container { /* Center Heading for content section */
@@ -122,20 +132,22 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border: solid 5px #3882f6;
+  border: solid 3px #6b97dd;
 }
 
 .content-info-container .content p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 22px;
+
   /* border: solid 1px blue; */
 }
 
 /* =========== QUOTE SECTION ============== */
 
 .quote-section-container {
-  margin-top: 50px; /* Add space content and quote section */
+  margin-top: 80px; /* Add space content and quote section */
   display: flex;
   flex-direction: column;
   justify-content: center;
